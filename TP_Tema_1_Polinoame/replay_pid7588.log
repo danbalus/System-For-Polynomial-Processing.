@@ -1,0 +1,45 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 285 ciObject found
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 4097 1 15848 0 64
+ciMethod java/lang/String <init> ([C)V 4097 1 1035 0 -1
+ciMethod java/lang/String <init> ([CII)V 2065 1 6585 0 -1
+ciMethod java/lang/String length ()I 4097 1 21567 0 -1
+ciMethod java/lang/String charAt (I)C 4097 1 119607 0 -1
+ciMethod java/lang/String codePointAt (I)I 0 0 1 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 3073 13841 2714 0 -1
+ciMethod java/lang/String hashCode ()I 2913 32769 2291 0 288
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2057 1 10570 0 -1
+ciMethod java/lang/String toLowerCase (Ljava/util/Locale;)Ljava/lang/String; 961 16457 5890 0 -1
+ciMethod java/lang/String toLowerCase ()Ljava/lang/String; 2281 1 16279 0 96
+ciMethod java/lang/String trim ()Ljava/lang/String; 4097 1 6350 0 224
+ciMethod java/lang/Class forName (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class; 4097 1 1520 0 -1
+ciMethod java/lang/Class newInstance ()Ljava/lang/Object; 169 1 21 0 -1
+ciMethod java/lang/Class isAssignableFrom (Ljava/lang/Class;)Z 2049 1 256 0 -1
+ciMethod java/lang/Class getClassLoader ()Ljava/lang/ClassLoader; 2073 1 3181 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 1033 1 129 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Hashtable get (Ljava/lang/Object;)Ljava/lang/Object; 2081 737 8468 0 1568
+ciMethod java/lang/StringBuilder <init> ()V 617 1 4294 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 969 1 11317 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 617 1 4974 0 -1
+ciMethod java/lang/Character charCount (I)I 17 1 71 0 -1
+ciMethod java/lang/Character toChars (I[CI)I 0 0 1 0 -1
+ciMethod java/lang/Character toChars (I)[C 0 0 1 0 -1
+ciMethod java/lang/Character toLowerCase (C)C 2153 1 35504 0 -1
+ciMethod java/lang/Character toLowerCase (I)I 4097 1 50571 0 -1
+ciMethod java/lang/Integer intValue ()I 1065 1 133 0 -1
+ciMethod java/lang/Integer equals (Ljava/lang/Object;)Z 137 1 15 0 0
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2065 1 17670 0 0
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2049 1 7344 0 1088
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2049 57 5743 0 800
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2929 1 8691 0 -1
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2945 193 8809 0 1856
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 281 1241 2413 0 -1
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 0 0 1 0 -1
+ciMethod 
